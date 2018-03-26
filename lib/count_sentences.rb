@@ -20,7 +20,7 @@ class String
   def count_sentences
     arr = self.split(/[\.|!|?]/)
 
-   arr2 = arr.map {|el| !el.nil?}
+    arr.each {|el| puts el}
 
    binding.pry
   end
