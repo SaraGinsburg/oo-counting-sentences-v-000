@@ -20,6 +20,6 @@ class String
   def count_sentences
     arr = self.split(/[\.|!|?]/)
 
-   arr.map {|el| !el.nil?}.count
+   arr2 = arr.map {|el| !el.nil?}
   end
 end
