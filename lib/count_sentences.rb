@@ -18,10 +18,10 @@ class String
   end
 
   def count_sentences
-    arr = self.split(/[\.|!|?]/)
+    arr = self.split(/[.?!]+/)
 
-    arr.each {|el| puts el}
+    
 
-   binding.pry
+  #  binding.pry
   end
 end
