@@ -21,5 +21,7 @@ class String
     arr = self.split(/[\.|!|?]/)
 
    arr2 = arr.map {|el| !el.nil?}
+
+   binding.pry
   end
 end
