@@ -20,6 +20,6 @@ class String
   def count_sentences
     arr = self.split(/[\.!+?]/)
     binding.pry
-    arr.length
+    arr.lengthar
   end
 end
